@@ -4,7 +4,7 @@
 
 
 ![Forktober GIF](https://raw.githubusercontent.com/ACM-VIT/.github/master/profile/acm_gif_banner.gif)
-<-- Project Title -->
+ 
 <h2>Digital Circuit Simulator</h2>
 
 <p>A web-based digital logic circuit simulator that allows users to visually design, build, and test digital circuits in their browser without needing physical hardware.</p>
