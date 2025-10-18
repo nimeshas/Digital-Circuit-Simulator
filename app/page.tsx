@@ -9,17 +9,21 @@ export default function Home() {
     <div className="min-h-screen bg-[#1b1c1d] flex flex-col relative overflow-hidden">
       <div className="flex flex-col justify-center items-center h-[92vh]">
         {/* Header */}
-        <div className="flex flex-row items-center justify-center text-center mb-6 z-10">
-          {" "}
-          <Image
-            src={D}
-            alt="Logic Gate"
-            className="h-[8vmax] animate-pulse"
-          />{" "}
+        <div className="flex flex-col sm:flex-row items-center justify-center text-center mb-6 z-10 gap-2 sm:gap-3">
+          <div className="flex flex-row items-center gap-0">
+            <Image
+              src={D}
+              alt="Logic Gate"
+              className="h-16 sm:h-20 lg:h-28 w-auto animate-pulse flex-shrink-0 object-contain"
+            />
+            <h1 className="text-emerald-600 text-5xl sm:text-6xl lg:text-7xl font-extrabold drop-shadow-[0_0_10px_rgba(0,255,157,0.3)]">
+              igital{" "}
+            </h1>
+          </div>
+
           <h1 className="text-emerald-600 text-5xl sm:text-6xl lg:text-7xl font-extrabold drop-shadow-[0_0_10px_rgba(0,255,157,0.3)]">
-            {" "}
-            Digital Circuit Simulator{" "}
-          </h1>{" "}
+            Circuit Simulator
+          </h1>
         </div>
 
         <p className="text-gray-300 text-center text-lg sm:text-xl lg:text-2xl max-w-2xl mb-8 leading-relaxed z-10">
