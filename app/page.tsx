@@ -2,6 +2,7 @@ import React from 'react';
 import Image from "next/image";
 import D from "@/public/logic-gate-or-svgrepo-com.svg"
 import cir from "@/public/8bvaKz01 (1).svg"
+import Link from "next/link";
 
 function Home() {
     return (
@@ -17,7 +18,7 @@ function Home() {
             <Image src={cir} alt="cir" style={{
                 height: '15vmax'
             }}/>
-            <button className="rounded-lg border-2 border-black p-2 m-2 hover:bg-gray-400 text-black bg-gray-100 text-2xl font-semibold">Try it out!!</button>
+            <Link href="/circuit" className="rounded-lg border-2 border-black p-2 m-2 hover:bg-gray-400 text-black bg-gray-100 text-2xl font-semibold">Try it out!!</Link>
         </div>
     );
 }
