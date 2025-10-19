@@ -14,7 +14,7 @@ export default function Home() {
             <Image
               src={D}
               alt="Logic Gate"
-              className="h-16 sm:h-20 lg:h-28 w-auto animate-pulse flex-shrink-0 object-contain translate-y-[-0.1em] sm:translate-y-[-0.4em]"
+              className="h-20 sm:h-32 lg:h-36 w-auto animate-pulse flex-shrink-0 object-contain"
             />
             <h1 className="text-emerald-600 text-5xl sm:text-6xl lg:text-7xl font-extrabold drop-shadow-[0_0_10px_rgba(0,255,157,0.3)]">
               igital{" "}
