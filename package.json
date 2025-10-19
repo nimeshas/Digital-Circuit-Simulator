@@ -2,6 +2,28 @@
   "name": "digital-circuit-simulator",
   "version": "0.1.0",
   "private": true,
+  "description": "A web-based digital logic circuit simulator that allows users to visually design, build, and test digital circuits in their browser without needing physical hardware.",
+  "author": "ACM VIT",
+  "homepage": "https://github.com/ACM-VIT/Digital-Circuit-Simulator#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ACM-VIT/Digital-Circuit-Simulator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ACM-VIT/Digital-Circuit-Simulator/issues"
+  },
+  "keywords": [
+    "digital-circuit",
+    "circuit-simulator",
+    "logic-gates",
+    "electronics",
+    "education",
+    "nextjs",
+    "react",
+    "typescript",
+    "digital-logic",
+    "interactive-learning"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
